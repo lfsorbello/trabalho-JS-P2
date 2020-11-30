@@ -1,0 +1,166 @@
+
+.page-footer { 
+  width: 100%;
+  background: #111;
+  margin: 2rem 0 0 0;
+  padding: 3rem 0;
+}
+
+/* NEWSLATTER */
+
+.newslatter-footer {
+  width: 100%;
+}
+
+.newslatter-message {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  text-align: center;
+  color: #666;
+  margin: 0 0 1.6rem 0;
+}
+
+.newslatter-form {
+  width: 100%;
+}
+
+.newslatter-form input[type=text],
+.newslatter-form input[type=submit] {
+  width: 100%;
+  height: 4rem;
+  background: #1d1d1d;
+  padding: 0 1.6rem;
+  font-size: 1.6rem;
+}
+
+.newslatter-form input[type=text] {
+  color: #666;
+  text-align: center;
+  margin: 0 0 .5rem 0;
+}
+
+.newslatter-form input[type=submit] {
+  color: #666;
+  background: #0a0a0a;
+  transition: background .7s;
+}
+
+.newslatter-form input[type=submit]:hover,
+.newslatter-form input[type=submit]:active {
+  cursor:pointer;
+  background: #030303;
+}
+
+::-webkit-input-placeholder { color: #555 }
+:-moz-placeholder { color: #555 }
+::-moz-placeholder { color: #555 }
+:-ms-input-placeholder { color: #555 }
+
+/* LISTA DE OPÇÕES */
+
+.options-footer {
+  width: 100%;
+  margin: 3rem 0;
+}
+
+.options-list {
+  width: 100%;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.option-list {
+  width: 100%;
+  font-size: 1.6rem;
+  line-height: 4.5rem;
+  color: #666;
+  border-top: 1px dotted #222;
+  transition: color .7s;
+  position: relative;
+}
+
+.option-list:last-child {
+    border-bottom: 1px dotted #222;
+}
+
+.option-list::after {
+  content: '+';
+  float: right;
+  color: #666;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.option-list:active,
+.option-list:hover {
+  cursor: pointer;
+  color: #fff;
+}
+
+.option-list:active::after,
+.option-list:hover::after {
+  content: '-';
+  font-size: 2.2rem;
+  color: #fff;
+}
+
+/* SUBLISTA DE OPÇÕES */
+
+.options-sublist {
+  width: 100%;
+  display: none;
+  flex-flow: column wrap;
+}
+
+.option-sublist,
+.link-sublist {
+  display: flex;
+  width: 100%;
+}
+
+.link-sublist {
+  padding: 0 0 0 10px;
+  color: #999;
+  border-top: 1px dotted #222;
+  line-height: 4.5rem;
+  display: flex;
+  flex-flow: column wrap;
+  font-size: 1.5rem;
+}
+
+.link-sublist span {
+  margin: 1.6rem 0 0 0;
+  font-size: 1.5rem;
+  line-height: 2rem
+}
+
+.link-sublist span:last-child {
+  margin: 1.6rem 0;
+}
+
+.icones-pagamento {
+  border-top: 1px dotted #222;
+}
+
+.icones-pagamento img {
+  width: 100%;
+  display: flex;
+  padding: .75rem 0;
+}
+
+/* DIREITOR RESERVADOS */
+
+.footer-author {
+  width: 100%;
+}
+
+.copyright {
+  font-size: 1.2rem;
+  line-height: 2rem;
+  color: #666;
+  text-align: center;
+}

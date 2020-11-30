@@ -1,0 +1,46 @@
+
+.page-main {
+  margin: 5.8rem 0 0 0;
+}
+
+/* índice de localização */
+
+.indice-localizacao {
+  display: flex;
+  margin: 3rem 0 1.5rem 0;
+}
+
+.indice-localizacao li {
+  font-size: 1rem;
+  color: #555;
+  display: inline-block;
+  text-transform: uppercase;
+  margin: 1rem .5rem 0 0;
+}
+
+/* titulo das paginas */
+
+.box-pages-title {
+  width: 100%;
+  background: #1b1b1b;
+  margin: 0 0 2.5rem 0;
+  background-image: url('../img/background-pages.svg');  
+}
+
+.pages-title {
+  font-size: 3rem;
+  color: #888;
+  padding: 0 0 2rem 0
+}
+
+.box-pages-content {
+  width: 100%;
+}
+
+.box-pages-content p {
+  width: 100%;
+  font-size: 1.6rem;
+  line-height: 2.8rem;
+  margin: 0 0 2rem 0;
+  color: #666;
+}
