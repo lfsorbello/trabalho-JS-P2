@@ -21,7 +21,7 @@ textarea,
 button { 
   font-size: 2.44rem;
   background: none;
-  background-color: red;
+  background-color: #e7e7e7; color: black;
   border: none;
   color: white;
   padding: 15px 32px;
