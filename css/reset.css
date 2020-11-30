@@ -19,9 +19,10 @@ a {
 input,
 textarea,
 button { 
-  font-size: 2.44rem;
+  font-size: 1.88rem;
   background: none;
   background-color: #e7e7e7; color: black;
+  margin-left: 550px;
   border: none;
   color: white;
   padding: 15px 32px;
