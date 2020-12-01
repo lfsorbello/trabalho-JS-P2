@@ -1,0 +1,159 @@
+
+.page-header { 
+  background: #111;
+  width: 100%;
+  height: 5.8rem;
+  box-shadow: 0 0 2rem #000;  
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  transition: height .7s;
+}
+
+.page-header .container {
+  width: 100%;
+  height: inherit;
+  padding: 0 2rem;
+  position: relative;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  box-sizing: border-box;
+  transition: padding .7s;
+  z-index: 0;
+}
+
+/* logo */
+
+.header-logo {
+  height: inherit;
+}
+
+.header-title {
+  text-indent: -999rem;
+  font-size: 0px;
+}
+
+.header-logo img {
+  width: 7.5rem;
+  margin: 1rem 0 0 0;
+  z-index: 2;
+  transition: width .7s;
+}
+
+/* ícones mobile */
+
+.header-mobile-icons { 
+  height: inherit;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+.header-mobile-icons img { 
+  width: 3.5rem;
+  height: inherit;
+  margin: 0 0 0 2rem;
+  padding: 0 0 0 1.8rem;
+  border-left: 1px solid #222;
+  display: flex;
+  opacity: .5;
+  transition: opacity .7s;
+}
+
+.header-mobile-icons img:first-child { 
+  margin: 0;
+}    
+
+.header-mobile-icons img:active,
+.header-mobile-icons img:hover { 
+  opacity: 1;
+  cursor: pointer;
+}
+
+/* caixa de busca */
+
+.header-search-form {
+  width: 100%;
+  height: 4.6rem;
+  position: static;
+  background: #111;
+  display: none;
+  flex-flow: row wrap;
+  justify-content: center;
+  z-index: -1;
+  transition: top .7s;
+  margin: 2rem 0 0 0;
+}
+
+.search-input {
+  color: #bbb;
+  height: inherit;
+  padding: 0 1.6rem;
+  width: 88%;
+}
+
+.search-button-submit {
+  height: inherit;
+  width: 12%;
+  opacity: .5;
+  transition: opacity .7s;
+}
+
+.search-button-submit:active,
+.search-button-submit:hover { 
+  opacity: 1;
+  cursor: pointer;
+}
+
+/* menu */
+
+.header-menu {
+  background: #111;
+  display: none;
+  position: absolute;
+  width: 100%;
+  top: 5.8rem;
+  left: 0;
+  padding: 3rem 0 1rem 0; 
+  z-index: -1;
+  transition: top .7s;
+}
+
+.menu-list {
+  width: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  box-sizing: border-box;
+}
+
+.menu-list-item {
+  width: 100%;
+  border-bottom: 1px solid #222;
+  position: relative;
+}
+
+.menu-list-item:last-child {
+  border-bottom: 0;
+}
+
+.menu-list-link {
+  width: 100%;
+  font-size: 1.4rem;
+  color: #666;
+  display: flex;
+  background: #111;
+  padding: 0 0 0 2rem;
+  line-height: 4.5rem;
+  transition: color .7s;
+}
+
+.menu-list-link:active,
+.menu-list-link:hover {
+  color: #eee;
+  cursor: pointer;
+}
+
+.icon-search {
+  display: none;
+}

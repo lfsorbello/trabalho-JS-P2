@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="10"
+   height="10"
+   viewBox="0 0 2.6458333 2.6458334"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.1 unknown"
+   sodipodi:docname="icone-busca.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="5.1153919"
+     inkscape:cx="-20.911513"
+     inkscape:cy="3.2658069"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-294.35415)">
+    <path
+       style="opacity:1;fill:#b3b3b3;fill-opacity:1;stroke:none;stroke-width:0.01140356;stroke-opacity:1"
+       d="m 1.5973526,294.35447 a 1.0336654,1.0335489 0 0 0 -0.71583561,0.30283 1.0336654,1.0335489 0 0 0 -0.1240437,1.31007 c -0.003411,0.003 -0.00763,0.004 -0.0108538,0.007 l -0.69826266,0.69817 c -0.06447852,0.0645 -0.06447852,0.16809 0,0.23257 l 0.04651639,0.0465 c 0.06447851,0.0645 0.16810342,0.0645 0.23258192,0 l 0.69826266,-0.69819 c 0.00305,-0.003 0.00396,-0.007 0.00672,-0.0103 a 1.0336654,1.0335489 0 0 0 1.3107285,-0.12454 1.0336654,1.0335489 0 0 0 0,-1.46149 1.0336654,1.0335489 0 0 0 -0.7458128,-0.30283 z m 0.024809,0.36846 a 0.66496943,0.66489449 0 0 1 0.4605123,0.19483 0.66496943,0.66489449 0 0 1 0,0.94056 0.66496943,0.66489449 0 0 1 -0.9406648,0 0.66496943,0.66489449 0 0 1 0,-0.94056 0.66496943,0.66489449 0 0 1 0.4801525,-0.19483 z"
+       id="path4502"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

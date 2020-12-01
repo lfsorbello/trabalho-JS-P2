@@ -1,0 +1,113 @@
+
+.features {
+  width: 100%;
+  margin: 5.8rem 0 0 0;
+  transition: margin .7s;
+}
+
+.features .container {
+  padding: 0;
+}
+
+.features .container .container {
+  padding: 0 2rem;
+}
+
+/* slider */
+
+.slider-box { 
+  width: 100%;
+  height: 20rem;
+  display: flex;
+  flex-flow: column wrap;
+  position: relative;
+  transition: height .7s;
+}
+
+.slider {
+  width: 100%;
+  height: inherit;
+  overflow: hidden;
+  margin: 0 0 2rem 0;
+}
+
+.slide {
+  width: 100%;
+  height: inherit;
+}
+
+.slide-link {
+  display: flex;
+  width: 100%;
+  height: inherit;
+  position: relative;
+}
+
+.slide-img {
+  width: 100%; 
+}
+
+.slide-description {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 13.5rem;
+  height: inherit;
+  background: #000;
+  opacity: .8;
+  padding: 5rem 1rem 2rem 1rem;
+  transition: width .7s, padding .7s;
+}
+
+.slide-title {
+  font-size: 2rem;
+  color: #ccc;
+  margin: 0 0 .5rem 0;
+  transition: font-size .7s, margin .7s;
+}
+
+.slide-subtitle {
+  font-size: 1.3rem;
+  color: #999;
+  transition: font-size .7s;
+}
+
+/* controles do slider */
+
+.slider-controls {
+  width: 13.5rem;
+  position: absolute;
+  right: -5.2rem;
+  bottom: 2rem;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.anterior,
+.proximo {
+  height: 4rem;
+  width: 4rem;
+  font-size: 2rem;
+  color: #eee;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  line-height: 4rem;
+  background: #000;
+  opacity: .9;
+  z-index: 1;
+  transition: opacity .7s;
+}
+
+.anterior:active,
+.anterior:hover,
+.proximo:active,
+.proximo:hover {
+  opacity: 1;
+}
+
+/* lojas */
+
+.box-lojas {
+  display: none;
+}
